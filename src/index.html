@@ -6,6 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cole Smith</title>
 </head>
+<style>
+    @media (prefers-color-scheme: dark) {
+        body {
+            --bg: black;
+            --content: white;
+        }
+    }
+
+    body {
+        --bg: white;
+        --content: black;
+        background-color: var(--bg);
+        color: var(--content);
+    }
+
+
+    nav {
+        display: flex;
+
+        h1 {
+            color: var(--content)
+        }
+    }
+</style>
 
 <body>
     <header>
@@ -26,15 +50,18 @@
             </ul>
         </nav>
         <main>
-            <h2>
-                Everything wants a portforlio.
-            </h2>
-            <p>So I guess if I have to do this we will do it my way:</p>
-            <ol>
-                <li>tiny</li>
-                <li>unusual</li>
-                <li>getting the job done</li>
-            </ol>
+            <section>
+
+                <h2>
+                    Everything wants a portforlio.
+                </h2>
+                <p>So I guess if I have to do this we will do it my way:</p>
+                <ol>
+                    <li>tiny</li>
+                    <li>unusual</li>
+                    <li>getting the job done</li>
+                </ol>
+            </section>
         </main>
         <footer>
             <footer>&copy; Copyright 2024 Cole.ismy.space</footer>
